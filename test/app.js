@@ -38,7 +38,7 @@ function initMap() {
 	});
 }
 
-var proxy = 'https://crossorigin.me/'
+var proxy = 'https://cors-anywhere.herokuapp.com/'
 var url = 'https://api.darksky.net/forecast/';
 var apiKey = 'e193913a8a2bab291b8999fae03fc8b7';
 var queryParams = ['exclude=[minutely,flags]', 'lang=es', 'units=auto'];
